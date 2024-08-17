@@ -40,6 +40,20 @@ a {
     opacity: 0.9;
     cursor: pointer;
 }
+.section-heading {
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: #10375c;
+}
+.section-desc {
+    margin-top: 18px;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.67;
+    color: #575f66;
+}
 /* =======header====== */
 .header {
     min-height: 100vh;
@@ -182,9 +196,83 @@ a {
 .hero__image:last-child {
     width: 210px;
     height: 410px;
-
 }
-.hero__image:first-child{
+.hero__image:first-child {
     position: relative;
     margin-right: -6px;
+}
+/* ===========service========= */
+.service {
+    padding: 170px 0;
+}
+.service__heading,
+.service__desc {
+    text-align: center;
+}
+.service__desc {
+    max-width: 468px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.service__row {
+    display: flex;
+    margin-top: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+.service__img {
+    width: 570px;
+    height: 570px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+.service__list{
+    margin-bottom: 55px;
+}
+/* service item */
+.service-item {
+    display: flex;
+    width: 470px;
+    padding: 22px;
+    border-radius: 10px;
+    background: #fff;
+    transform: 0.25s;
+}
+.service-item:hover{
+    position: relative;
+box-shadow: 0px 14px 28px 0px #0000000D;
+}
+.service-item:hover .service-item__icon{
+    background: #2E80CE;
+    color:#fff;
+}
+
+.service-item__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: #10375c;
+    background-color: #eff6fd;
+    box-shadow: 0px 8px 16px 0px #0000000d;
+    transform: 0.25s;
+}
+.service-item__body {
+    margin-left: 20px;
+}
+.service-item__heading {
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.27;
+    color: #10375c;
+}
+.service-item__desc{
+    margin-top: 8px;
+font-size: 1.6rem;
+font-weight: 300;
+line-height: 1.75;
+color:#575F66;
 }
