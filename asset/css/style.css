@@ -433,3 +433,68 @@ a {
 .member__control-next-icon {
     rotate: 180deg;
 }
+/* =========benefit========= */
+.benefit {
+    padding: 45px 0;
+}
+.benefit__container {
+    margin-top: 95px;
+    background: #2e80ce;
+}
+.benefit-body {
+    height: 427px;
+    margin: 0 70px 0px 80px;
+    display: flex;
+    column-gap: 160px;
+}
+.benefit-info {
+    padding: 76px 0;
+    width: 50%;
+    height: 276px;
+    justify-content: center;
+}
+.benefit__desc {
+    margin-top: -100px;
+}
+.benefit-info__title {
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+.benefit-info--solution {
+    margin-top: 15px;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.67;
+    text-align: left;
+
+    color: #e7e4e4;
+}
+.benifit-media {
+    margin-top: 40px;
+    display: flex;
+    gap: 34px;
+}
+.media--item {
+    width: 125px;
+    text-align: left;
+    padding: 6px;
+    display: flex;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+.media__row--item {
+    margin-left: 4px;
+}
+.media--item__desc {
+    color: #fff;
+    font-size: 0.8rem;
+    opacity: 0.6;
+}
+.media--item__name {
+    margin-top: 5px;
+    color: #fff;
+    font-size: 1.2rem;
+}
