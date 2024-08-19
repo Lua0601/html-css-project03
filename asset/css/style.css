@@ -498,3 +498,112 @@ a {
     color: #fff;
     font-size: 1.2rem;
 }
+/* ==========news======== */
+.news {
+    margin-top: 110px;
+}
+.news-body {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    column-gap: 40px;
+    height: 375px;
+}
+.news-info {
+    padding: 64px 0;
+    width: 470px;
+}
+.news-info__heading {
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #10375c;
+    margin-bottom: 50px;
+}
+.news-info__link {
+    display: block;
+    text-decoration: underline;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.56;
+    text-align: left;
+    color: #10375c;
+}
+.news-info__controls{
+    display: flex;
+    margin-top: 35px;
+
+}
+
+.news-info__control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    color: #575f66;
+    border: 1px solid #575f66;
+    background-color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.news-info__control:hover {
+    background: #2e80ce;
+    border: #2e80ce;
+    color:#fff;
+}
+
+.news-info__control:first-child {
+    margin-right: 25px;
+    rotate:180deg;
+    
+}
+.news-item {
+    width: 270px;
+    height: 375px;
+    border-radius: 12px;
+    border: 1px solid #e8ebee;
+    background-color: #fff;
+}
+.news-item:last-child {
+  right: 0;
+}
+.news-item__thumb {
+    width: 270px;
+    height: 172px;
+    overflow: hidden;
+    border-radius: 12px 12px 0px 0px;
+}
+.news-item--paragraph {
+    padding: 20px;
+}
+.news-item__title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.6;
+    text-align: left;
+    color: #10375c;
+}
+.news-item__desc {
+    margin-top: 15px;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.7;
+    text-align: left;
+    color: #575f66;
+}
+.news-item__more {
+    display: block;
+    margin-top: 12px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.26;
+    text-align: left;
+    color: #10375c;
+}
+.news-item__more:hover {
+    color: #2e80ce;
+}
